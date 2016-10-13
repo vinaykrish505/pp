@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3f1fd"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="3" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/textView1"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="accounting" 
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/textView2"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="airport" 
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/textView3"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="amusement_park" />
+
+            <Button
+                android:id="@+id/textView4"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="aquarium" />
+
+            <Button
+                android:id="@+id/textView5"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="art_gallery" />
+
+            <Button
+                android:id="@+id/textView6"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="atm" />
+
+            <Button
+                android:id="@+id/textView7"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="bakery" />
+
+            <Button
+                android:id="@+id/textView8"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="bank" />
+
+            <Button
+                android:id="@+id/textView9"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="bar" />
+
+            <Button
+                android:id="@+id/textView10"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="beauty_salon" />
+
+            <Button
+                android:id="@+id/textView11"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="bicycle_store"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/textView12"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="book_store" />
+
+            <Button
+                android:id="@+id/textView13"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="bowling_alley"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/textView14"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="bus_station" />
+
+            <Button
+                android:id="@+id/textView15"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="cafe" />
+
+            <Button
+                android:id="@+id/textView16"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="campground"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/textView17"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="car_dealer"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/textView18"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="car_rental" />
+
+            <Button
+                android:id="@+id/textView19"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="car_repair" />
+
+            <Button
+                android:id="@+id/textView20"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="car_wash" />
+
+            <Button
+                android:id="@+id/textView21"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="casino" 
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/textView22"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="cemetery" 
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/textView23"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="church" />
+
+            <Button
+                android:id="@+id/textView24"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="city_hall" />
+
+            <Button
+                android:id="@+id/textView25"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="clothing_store" />
+
+            <Button
+                android:id="@+id/textView26"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="convenience_store"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/textView27"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="courthouse" />
+
+            <Button
+                android:id="@+id/textView28"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="dentist" />
+
+            <Button
+                android:id="@+id/textView29"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="department_store" />
+
+            <Button
+                android:id="@+id/textView30"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="doctor" />
+
+            <Button
+                android:id="@+id/textView31"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="electrician" />
+            <Button
+                android:id="@+id/textView32"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="electronics_store" />
+
+            <Button
+                android:id="@+id/textView33"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="embassy"
+                android:visibility="gone" />
+            <Button
+                android:id="@+id/textView34"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="fire_station" />
+            <Button
+                android:id="@+id/textView35"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="florist" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/textView36"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="funeral_home" 
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/textView37"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="furniture_store" />
+
+            <Button
+                android:id="@+id/textView38"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="gas_station" />
+
+            <Button
+                android:id="@+id/textView39"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="grocery_or_supermarket" />
+
+            <Button
+                android:id="@+id/textView40"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="gym" />
+
+            <Button
+                android:id="@+id/textView41"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="hair_care" 
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/textView42"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="hardware_store" />
+
+            <Button
+                android:id="@+id/textView43"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="hindu_temple" />
+
+            <Button
+                android:id="@+id/textView44"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="home_goods_store" />
+
+            <Button
+                android:id="@+id/textView45"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="hospital" />
+
+            <Button
+                android:id="@+id/textView46"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="insurance_agency"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/textView47"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="jewelry_store" />
+
+            <Button
+                android:id="@+id/textView48"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="laundry" />
+
+            <Button
+                android:id="@+id/textView49"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="lawyer" />
+
+            <Button
+                android:id="@+id/textView50"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="library" />
+
+            <Button
+                android:id="@+id/textView51"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="liquor_store" />
+
+            <Button
+                android:id="@+id/textView52"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="local_government_office" />
+
+            <Button
+                android:id="@+id/textView53"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="locksmith"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/textView54"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="lodging" />
+
+            <Button
+                android:id="@+id/textView55"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="meal_delivery" />
+
+            <Button
+                android:id="@+id/textView56"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="meal_takeaway" />
+
+            <Button
+                android:id="@+id/textView57"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="mosque" />
+
+            <Button
+                android:id="@+id/textView58"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="movie_rental"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/textView59"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="movie_theater" />
+
+            <Button
+                android:id="@+id/textView60"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="moving_company" />
+            <Button
+                android:id="@+id/textView61"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="museum" />
+
+            <Button
+                android:id="@+id/textView62"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="night_club" />
+
+            <Button
+                android:id="@+id/textView63"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="painter" />
+                 
+            <Button
+                android:id="@+id/textView64"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="park" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/textView65"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="parking" />
+
+            <Button
+                android:id="@+id/textView66"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="pet_store" />
+
+            <Button
+                android:id="@+id/textView67"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="pharmacy" />
+
+            <Button
+                android:id="@+id/textView68"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="physiotherapist" />
+
+            <Button
+                android:id="@+id/textView69"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="plumber" />
+
+            <Button
+                android:id="@+id/textView70"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="police" />
+
+            <Button
+                android:id="@+id/textView71"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="post_office" />
+
+            <Button
+                android:id="@+id/textView72"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="real_estate_agency" />
+
+            <Button
+                android:id="@+id/textView73"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="restaurant" />
+
+            <Button
+                android:id="@+id/textView74"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="roofing_contractor"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/textView75"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="rv_park"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/textView76"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="school" />
+
+            <Button
+                android:id="@+id/textView77"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="shoe_store" />
+
+            <Button
+                android:id="@+id/textView78"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="shopping_mall" />
+
+            <Button
+                android:id="@+id/textView79"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="spa" />
+
+            <Button
+                android:id="@+id/textView80"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="stadium" />
+
+            <Button
+                android:id="@+id/textView81"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="storage" />
+
+            <Button
+                android:id="@+id/textView82"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="store" />
+
+            <Button
+                android:id="@+id/textView83"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="subway_station" />
+
+            <Button
+                android:id="@+id/textView84"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="synagogue" />
+
+            <Button
+                android:id="@+id/textView85"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="taxi_stand" />
+
+            <Button
+                android:id="@+id/textView86"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="train_station" />
+
+            <Button
+                android:id="@+id/textView87"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="transit_station" />
+
+            <Button
+                android:id="@+id/textView88"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="travel_agency" />
+
+            <Button
+                android:id="@+id/textView89"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="university" />
+
+            <Button
+                android:id="@+id/textView90"
+                style="@style/EvenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="veterinary_care" />
+
+            <Button
+                android:id="@+id/textView91"
+                style="@style/OddText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="zoo" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
